@@ -1,4 +1,14 @@
 .App{
     background-color: rgb(223, 223, 223);
     height: 1000px;
+    text-align: center;
+}
+.pokeLogo{
+    margin-top: 150px;
+    max-height: 300px;
+}
+.searchBar{
+    font-size: 3rem;
+    width: 700px;
+    margin-top: 40px;
 }

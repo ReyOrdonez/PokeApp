@@ -3,7 +3,7 @@ import './navBar.css';
 
 const options = ['Contact', 'Home', 'GitHub'];
 
-export default function navBar() {
+export default function NavBar() {
     return (
         <div>
             <nav> 
