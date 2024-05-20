@@ -1,0 +1,31 @@
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+    text-align: center;
+}
+nav ul{
+    margin-right: 40px;
+}
+nav ul li {
+    display: inline-block;
+    margin: 15px 30px;
+}
+nav ul li a{
+    color: rgb(242, 239, 239);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+nav ul li a .line{
+    background-color: rgb(241, 241, 241);
+    min-height: 2px;
+    transition: margin 300ms linear;
+    margin: 0px 100%;
+}
+nav ul li a:hover .line {
+    margin: 0px 0px;
+}
+.logo{
+   max-height: 70px;
+   margin-right: 20px;
+}
