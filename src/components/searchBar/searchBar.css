@@ -1,0 +1,13 @@
+div{
+    text-align: center;
+}
+.pokeLogo{
+    max-height: 300px;
+    margin-top: 140px;
+}
+.searchBar{
+    font-size: 3rem;
+    margin-top: 30px;
+    width: 700px;
+    padding: 10px;
+}
