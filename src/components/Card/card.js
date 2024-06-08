@@ -1,12 +1,17 @@
+import './card.css'
 
-
-export default function Card(props){
-    
-    return(
-        <div>
-            <h1>Pokemon</h1>
-            <img alt="PokePhoto"/>
-            <h3>Stats</h3>
+const Card = ({pokemon}) => {
+    console.log(pokemon);
+    return (
+        <div className='card' id={pokemon.types[0].type.name}>
+            <h2>{pokemon.name}</h2>
+            <img  alt='pokeImage' src = {pokemon.sprites.front_default}/>
+            <div className='types'>
+                <div id='type' className={pokemon.types[0].type.name}>{pokemon.types[0].type.name}</div>
+                {pokemon.types[1] ? <div id='type' className={pokemon.types[1].type.name}>{pokemon.types[1].type.name}</div> : false}
+            </div>
         </div>
     )
 }
+
+export default Card;

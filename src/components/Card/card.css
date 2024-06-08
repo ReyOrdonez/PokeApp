@@ -1,0 +1,94 @@
+img{
+    min-height: 120px;
+    min-width: 120px;
+    padding-bottom: 10px;
+}
+.card{
+    border-style: solid;
+    border-color: rgb(162, 162, 162);
+    border-width: 1px;
+    margin: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.fisicData{
+    display: inline-block;
+}
+.types{
+    display: flex;
+    justify-content: center;
+}
+.types div{
+    margin: 0px 10px;
+}
+.types #type {
+    min-width: 65px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    padding: 2px 0px;
+}
+.types .fire{
+    border-color: rgb(153, 56, 0);
+    background-color: rgb(216, 82, 4);
+    color: rgb(239, 239, 239);
+}
+.types .flying {
+    background-color: rgb(184, 223, 234);
+    border-color: rgb(147, 187, 198);
+}
+.types .grass {
+    background-color: rgb(109, 198, 122);
+    border-color: rgb(55, 134, 67);
+}
+.types .water{
+    background-color: rgb(108, 143, 212);
+    border-color: rgb(83, 111, 166);
+    color: rgb(239, 239, 239);
+}
+.types .normal{
+    background-color: rgb(195, 157, 96);
+    border-color: rgb(127, 99, 54);
+    color: rgb(239, 239, 239);
+}
+.types .ground{
+    background-color: rgb(140, 93, 5);
+    border-color: rgb(87, 58, 3);
+    color: rgb(239, 239, 239);
+}
+.types .electric{
+    background-color: rgb(240, 226, 29);
+}
+.types .bug{
+    background-color: rgb(44, 117, 26);
+    border-color: rgb(30, 80, 18);
+    color: rgb(239, 239, 239);
+}
+.types .rock{
+    background-color: rgb(157, 154, 154);
+    border-color: rgb(74, 71, 71);
+    color: rgb(239, 239, 239);
+}
+.types .poison {
+    background-color: rgb(141, 64, 186);
+    border-color: rgb(74, 40, 94);
+    color: rgb(239, 239, 239);
+}
+.types .fairy{
+    background-color: rgb(221, 110, 227);
+    border-color: rgb(132, 62, 137);
+    color: rgb(239, 239, 239);
+}
+.types .fighting{
+    background-color: rgb(180, 65, 65);
+    border-color: rgb(131, 52, 52);
+    color: rgb(239, 239, 239);
+}
+.types .psychic{
+    background-color: rgb(210, 87, 189);
+    border-color: rgb(129, 49, 115);
+    color: rgb(239, 239, 239);
+}
